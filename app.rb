@@ -12,6 +12,7 @@ class App < Sinatra::Base
     "#{@result}"
   end
   
-  
+  get '/say/:number/:phrase' do
+    @say = 
 
 end
