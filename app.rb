@@ -20,7 +20,9 @@ class App < Sinatra::Base
       @product += @saying
       @product += "\n"
     end
+    "#{@product}"
   end
+  
   
 
 end
