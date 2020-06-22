@@ -18,6 +18,9 @@ class App < Sinatra::Base
     @saying = params[:phrase]
     @number.times do
       @product += @saying
-      
+      @product += "\n"
+    end
+  end
+  
 
 end
